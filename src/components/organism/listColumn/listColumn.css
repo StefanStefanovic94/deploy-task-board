@@ -1,0 +1,10 @@
+.listColumn{
+    display: inline-flex;
+    background: aliceblue;
+    max-width: 1000px;
+    min-height: 300px;
+}
+.list{
+    border: solid 1px black ;
+    width: 300px;
+}

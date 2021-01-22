@@ -1,0 +1,17 @@
+.avatarImage {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 3px;
+}
+.wrapAvatars {
+  text-align: initial;
+  width: 80%;
+  margin: 0 auto;
+}
+.avatarImageSelect{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: rgb(212, 127, 127) solid 3px;
+}
