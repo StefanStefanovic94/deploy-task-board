@@ -1,9 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import './editButton.css';
 
 const EditButton = ({ value, onClick }) => {
   return (
-    <button type="submit" onClick={onClick}>
+    <button className='deleteButton' type="submit" onClick={onClick}>
       {value}
     </button>
   );

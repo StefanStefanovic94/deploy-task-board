@@ -1,10 +1,12 @@
 .listColumn{
     display: inline-flex;
-    background: aliceblue;
+    background: #d9fff5;
     max-width: 1000px;
     min-height: 300px;
+    position: relative;
 }
 .list{
     border: solid 1px black ;
     width: 300px;
+    position: relative;
 }

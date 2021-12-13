@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import { Switch, Route, BrowserRouter } from 'react-router-dom';
+import { Switch, Route, HashRouter } from 'react-router-dom';
 import Board from './components/pages/board';
 import Create from './components/pages/create';
 import EditIssue from './components/pages/editIssue';
@@ -10,7 +10,7 @@ import CreateUser from './components/pages/createUser';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter>
         <Switch>
           <Route exact path="/" component={Board} />
 
@@ -22,7 +22,7 @@ function App() {
 
           <Route exact path="/create_user" component={CreateUser} />
         </Switch>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }

@@ -1,5 +1,6 @@
 .wrapUsers{
     display: flex;
+    justify-content: center;
 }
 .wrapCard{
     background: aliceblue;
